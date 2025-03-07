@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Products Section */
+#products {
+    margin-bottom: 30px;
+}
+
+#products h2 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.product:hover {
+    background-color: #f1f1f1;
+}
+
+/* Cart Section */
+#cart {
+    margin-bottom: 30px;
+}
+
+#cart h2 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+/* Action Buttons */
+#actions button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px 10px 0 0;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#actions button:hover {
+    background-color: #388E3C;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
